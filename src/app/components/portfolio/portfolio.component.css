@@ -1,0 +1,96 @@
+header {
+    display: flex;
+    padding: 8px;
+    gap: 1rem;
+    max-width: 800px;
+    margin-inline: auto;
+    align-items: center;
+}
+
+header .header__image {
+    max-width: 140px;
+}
+
+header .header__image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+header div h2 {
+    color: #FFFF;
+    font-size: 2rem;
+}
+header .header__personal{
+    display: flex;
+    gap: 1rem;
+}
+header div span {
+    color: #E11F84;
+    font-weight: 600;
+}
+
+header .header__networks {
+    margin-top: 4px;
+}
+
+header .header__networks a img {
+    width: 24px;
+}
+
+section {
+    max-width: 800px;
+    margin-inline: auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section h3 {
+    color: #FFFF;
+    font-size: 1.6rem;
+}
+
+section .objective p {
+    font-size: 1.1rem;
+    color: #FFFF;
+}
+
+section .objective span {
+    color: #f949a4;
+    font-weight: 600;
+}
+
+section .objective span:hover {
+    text-decoration: underline;
+}
+
+section .skills .skills__icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+section .skills__icons i {
+    font-size: 2.4rem;
+    color: #f949a4;
+}
+
+section .experience h4 , section .courses h4 {
+    color: #FFFF;
+}
+
+section .experience p , section .courses p{
+    color: #7C7C8A;
+    font-size: 0.8rem;
+}
+
+section .experience a , section .courses a{
+    color: #f949a4;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+section .experience a:hover, section .courses a:hover {
+    text-decoration: underline;
+}
